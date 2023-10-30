@@ -1,5 +1,7 @@
 import '@/app/ui/global.css';
 import { inter } from '@/app/ui/fonts';
+import { Suspense } from 'react';
+import Loading from './dashboard/(overview)/loadingaa';
 
 export default function RootLayout({
   children,
